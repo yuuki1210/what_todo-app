@@ -18,11 +18,10 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Container(
            child: Center(
-               child: Text(
-                 "Hello world",
-               style: TextStyle(
-                 fontSize: 22.0,
-                 ),
+               child: Image(
+                 image: AssetImage(
+                   'assets/images/logo.png'
+                 )
                ),
            ),
         ),
