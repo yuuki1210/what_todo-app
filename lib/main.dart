@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:what_todo/screens/homepage.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,11 +19,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Container(
            child: Center(
-               child: Image(
-                 image: AssetImage(
-                   'assets/images/logo.png'
-                 )
-               ),
+               child: Homepage(
+               )
            ),
         ),
         ),
