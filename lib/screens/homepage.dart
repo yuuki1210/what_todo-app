@@ -31,6 +31,10 @@ class _HomepageState extends State<Homepage> {
                 ),
               ),
             ),
+            TaskCardwidget(
+                title: "Get Started!",
+              desc: "Hollow user",
+            ),
             TaskCardwidget(),
           ],
          ),
